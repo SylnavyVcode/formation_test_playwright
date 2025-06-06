@@ -5,13 +5,15 @@
   "scripts": {
     "test:dev": "npx playwright test",
     "test:staging": "ENV=staging npx playwright test",
-    "test:prod": "ENV=production npx playwright test"
+    "test:prod": "ENV=production npx playwright test",
+    "test:visual:playwright": "npx playwright test example2.spec.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@applitools/eyes-playwright": "^1.37.2",
     "@playwright/test": "^1.52.0",
     "@types/node": "^22.15.30"
   },
